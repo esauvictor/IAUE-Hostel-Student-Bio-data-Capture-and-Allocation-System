@@ -1962,8 +1962,8 @@ document.querySelectorAll('.otp-input').forEach((input, index) => {
         
         // Send OTP via Telegram Bot API
         async function sendOTP(name, otp) {
-            const botToken = '8461109289:AAGf5bE6uDLmu31IZeowBlpZwcevYxEMQyw'; // Replace with your actual bot token
-            const chatId = '5382044313'; // Replace with your admin's chat ID
+            const botToken = '###'; // Replace with your actual bot token
+            const chatId = '###'; // Replace with your admin's chat ID
             const message = `🔐 OTP Verification for IAUE Hostel Registration
 
 Dear ${name},
